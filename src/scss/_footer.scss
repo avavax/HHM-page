@@ -1,0 +1,40 @@
+footer {
+	background-color: $fon-dark;
+	padding-top: 36px;
+	padding-bottom: 56px;
+	a:hover {
+		text-decoration: none;
+	}
+}
+.footer-logo {
+	width: 250px;
+	margin-bottom: 16px;
+}
+.social {
+	&-link {
+	font-size: 24px;
+	transition: transform 0.3s;
+	text-decoration: none;
+		.fa {
+			padding-top: 11px;
+			display: block;	
+			text-align: center;
+			color: #656566;
+			width: 48px;
+			height: 48px;
+			border: 1px solid #656566;
+			border-radius: 24px;
+			transition: transform 0.3s;
+			&:hover {
+				transform: scale(1.2);
+			}			
+		}
+	}
+	&-wrapper {
+		display: flex;
+		justify-content: center;
+	}	
+}
+	
+
+

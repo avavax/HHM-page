@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Honey Hunters</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/logo.png" type="image/png">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo-wrapper">
+				<div class="logo"></div>
+			</div>
+			
+			<div class="symbol"><img src="img/contact-icon.svg" alt="contact-icon"></div>
+			<form action="#" class="comment-form">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="form-left">
+							<label for="name">Имя <span class ="aster">*</span><span id="nameHelp" class="hidden">это обязательно поле</span></label>
+							<input type="text" id="name" name="name">
+
+							<label for="email">E-mail <span class ="aster">*</span><span id="emailHelp" class="hidden">неверный формат почты</span></label>
+							<input type="text" id="email" name="email">
+											
+						</div>			
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="comment">Комментарий <span class ="aster">*</span><span id="commentHelp" class="hidden">напишите сообщение</span></label>
+						<textarea id="comment" name="comment"></textarea>
+					</div>
+				</div>
+				<div class="row justify-content-end">
+					<button type="submite">Записать</button>			
+				</div>
+			</form>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1>Выводим комментарии</h1>
+			<div class="row" id="comments">
+												
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-10">
+					<img class= "footer-logo" src="img/logo.svg" alt="logo">
+
+				</div>
+				<div class="col-6 col-md-1 social-wrapper">
+					<a href="#" class="social-link"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-6 col-md-1 social-wrapper">
+					<a href="#" class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
